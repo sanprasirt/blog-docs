@@ -14,5 +14,5 @@ jobs:
       with:
         python-version: '3.9'
         cache: 'pip' # caching pip dependencies
-    - run: pip install -r requirements.txt
+    - run: pip install mkdocs-material
     - run: mkdocs gh-deploy --force
