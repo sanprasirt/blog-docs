@@ -1,0 +1,68 @@
+site_name: Blog and Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.prettify
+    - content.code.anotation
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+extra:
+  social:
+    - type: github
+      link: https://github.com/sanprasirt
+      icon: fontawesome/brands/github-alt
+    - type: twitter
+      link: https://twitter.com/ttyvip
+      icon: fontawesome/brands/twitter
+    - type: linkedin
+      link: https://www.linkedin.com/in/sanprasirt-boonma-47581922/
+      icon: fontawesome/brands/linkedin
+    - type: facebook
+      link: https://www.facebook.com/sanprasirtb
+      icon: fontawesome/brands/facebook
+    - type: youtube
+      link: https://www.youtube.com/channel/UC3BfiUaZrggJNRjBD0ImHrA
+      icon: fontawesome/brands/youtube
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      guess_lang: false
+      css_class: highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.mark
+  - admonition
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; <a href="https://github.com/sanprasirt" target="_blank" ref="noopener"> 2023 Sanprasirt Boonma. All rights reserved.</a>
