@@ -8,7 +8,7 @@ theme:
     - navigation.tabs
     - navigation.tracking
     #- navigation.sections
-    #- navigation.indexes
+    - navigation.indexes
     #- navigation.top
     - toc.integrate
     - search.suggest # display the likeliest results first
@@ -32,6 +32,13 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+nav:
+  - Home:
+    - index.md
+  - Blog:
+    - blog.md
+  - Documentation:
+    - documents/getting-started.md
 extra:
   social:
     - type: github
