@@ -1,13 +1,19 @@
 site_name: Blog and Documentation
 theme:
   name: material
+  icon:
+    logo: fontawesome/brands/twitch
+    favicon: favicon.ico
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.top
+    - navigation.tracking
+    #- navigation.sections
+    #- navigation.indexes
+    #- navigation.top
     - toc.integrate
-    - search.suggest
-    - search.highlight
+    - search.suggest # display the likeliest results first
+    - search.highlight # Highlight search all occurrences
+    - search.share # Show share button in search results
     - content.tabs.link
     - content.code.copy
     - content.code.prettify
